@@ -8,7 +8,7 @@ Besides that this code can be either used as a WP plugin or a theme include.
 ### Structure
 
 * acf-nggallery.php : Main add-on file. This file acts as the WP plugin and includes the neccessary field file
-* nggallery-v4.php : This is the NextGEN field class that is compatible with ACF version 3
+* nggallery-v4.php : This is the NextGEN field class that is compatible with ACF version 4
 * readme.txt : WordPress readme file which contains information for the WP plugin repository
 
 # ACF { NextGEN Gallery Custom Field
