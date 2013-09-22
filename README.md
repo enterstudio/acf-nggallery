@@ -15,7 +15,7 @@ Besides that this script can be either used as a WP plugin or as a theme include
 
 ### Overview
 
-This plugin provides an extra field for the Advanced Custom Fields plugin to support the NextGEN Gallery plugin. This  makes users able to link galleries to posts, pages and custom post types.
+This plugin provides an extra field for the Advanced Custom Fields plugin to support the NextGEN Gallery plugin. This makes users able to link galleries to posts, pages and custom post types.
 
 ### Compatibility
 
