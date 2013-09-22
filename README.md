@@ -1,9 +1,9 @@
 # ACF { NextGEN Gallery Custom Field
 
-Welcome to the Advanced Custom Fields NextGEN Gallery Custom Field. As the name suggests, this field is an extension for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
-This code works **only** in ACF version 4. Version 3 is currently not supported.
+Welcome to the Advanced Custom Fields NextGEN Gallery Custom Field repository. As the name suggests, this script is an extension for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
+This script works **only** in ACF version 4. Version 3 is currently not supported.
 
-Besides that this code can be either used as a WP plugin or a theme include.
+Besides that this script can be either used as a WP plugin or as a theme include.
 
 ### Structure
 
@@ -15,13 +15,13 @@ Besides that this code can be either used as a WP plugin or a theme include.
 
 ### Overview
 
-This plugin provides an extra field for the Advanced Custom Fields plugin to support the NextGEN Gallery plugin. This gives makes uers able to link galleries to posts, pages and custom post types.
+This plugin provides an extra field for the Advanced Custom Fields plugin to support the NextGEN Gallery plugin. This  makes users able to link galleries to posts, pages and custom post types.
 
 ### Compatibility
 
 This add-on will work with:
 
-* version 4 and up
+* version 4 and up of the Advanced Custom Fields Wordpress plugin
 
 ### Installation
 
@@ -31,7 +31,7 @@ This add-on can be treated as both a WP plugin and a theme include.
 
 1. Copy the 'acf-nggallery' folder into your plugins folder
 2. Activate the plugin via the Plugins admin page
-3. The field will immediately be activate in die Advanced Custom Field plugin.
+3. The field will immediately be available in the Advanced Custom Fields plugin.
 
 **Include within theme**
 
