@@ -13,13 +13,19 @@ This plugin provides an extra field for the Advanced Custom Fields plugin to sup
 
 == Description ==
 
+Welcome to the Advanced Custom Fields NextGEN Gallery Custom Field plugin page. As the name suggests, this script is an extension for the [Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/) WordPress plugin.
+This script works **only** in ACF version 4.0.0. and up. Version 3 is currently not supported.
+
+Besides that this script can be either used as a WP plugin or as a theme include.
+
 This plugin provides an extra field for the Advanced Custom Fields plugin to support the NextGEN Gallery plugin. This makes users able to link galleries to posts, pages and custom post types.
 
 = Compatibility =
 
-This add-on will work with:
+This add-on will work with version 4 and up of the ACF plugin.
 
-* version 4 and up
+= Issues? =
+If you discover any bugs or have any feature requests, I would like to refer you to the [Github Repository](https://github.com/JeroenReumkens/acf-nggallery) of this script.
 
 == Installation ==
 
@@ -42,14 +48,24 @@ function my_register_fields()
 }
 `
 
-== Changelog ==
+== Screenshots ==
+1. This is the field in de ACF admin panel.
+2. NGGallery object returned in template.
+3. Images array returned in template.
 
-= 1.0.0 =
-* Initial Release.
+== Changelog ==
+= 1.1.2 =
+* Added screenshots
+
+= 1.1.1 =
+* Readme.txt fix.
+
+= 1.1.0 =
+* Added return type 'NGGallery id' to return only the id of the gallery.
 
 = 1.0.1 =
 * Changed answers for multiple or single gallery from 'Yes' and 'No' to 'Multiple galleries' and 'Only one'.
 * Fixed Wordpress readme.txt short description to match Wordpress requirements.
 
-= 1.1.0 =
-* Added return type 'NGGallery id' to return only the id of the gallery.
+= 1.0.0 =
+* Initial Release.
