@@ -122,7 +122,8 @@ class acf_field_nggallery extends acf_field
 						'layout'  => 'horizontal',
 						'choices' => array(
 							'nggallery_object' => __('NGGAllery Object (in array)'),
-							'images_array'  => __('All of the images (in array)')
+							'images_array'  => __('All of the images (in array)'),
+							'nggallery_id' => __('NGGallery id')
 						)
 					));
 				?>
@@ -222,6 +223,9 @@ class acf_field_nggallery extends acf_field
 			case 'nggallery_object' :
 				return $this->formatNGGalleryObjectForApi($value, $post_id, $field);
 			break;
+			case 'nggallery_id' :
+				return $this->formatNGGalleryIdForApi($value, $post_id, $field);
+				break;
 			default:
 				return 'Are you kidding? Seems like you\'re using a return type that I\'m not aware of.';
 				break;
@@ -297,6 +301,41 @@ class acf_field_nggallery extends acf_field
 		}
 
 		return $aImages;
+	}
+
+
+	/*
+	*  formatNGGalleryIdForApi()
+	*
+	*  Loops through all values and returns them
+	*
+	*  @since	1.1.0
+	*  @date	21-09-2013
+	*
+	*  @param	$value	- the value which was loaded from the database
+	*  @param	$post_id - the $post_id from which the value was loaded
+	*  @param	$field	- the field array holding all the field options
+	*
+	*  @return	$aGalleryIds  - NGGallery id's
+	*  @return  $iGalleryId   - NGGallery id as a string, of there is only 1 id
+	*/
+	function formatNGGalleryIdForApi($value, $post_id, $field)
+	{
+		$aGalleryIds = array();
+
+		if (count($value) === 1) {
+
+			return $value[0];
+
+		} else {
+
+			foreach($value as $gallery) {
+				$aGalleryIds = $value[$gallery];
+			}
+			return $aGalleryIds;
+
+		}	
+
 	}
 
 

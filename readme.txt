@@ -50,3 +50,6 @@ function my_register_fields()
 = 1.0.1 =
 * Changed answers for multiple or single gallery from 'Yes' and 'No' to 'Multiple galleries' and 'Only one'.
 * Fixed Wordpress readme.txt short description to match Wordpress requirements.
+
+= 1.1.0 =
+* Added return type 'NGGallery id' to return only the id of the gallery.
