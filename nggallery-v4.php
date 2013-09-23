@@ -97,8 +97,8 @@ class acf_field_nggallery extends acf_field
 						'value'   => $field['multiple'],
 						'layout'  => 'horizontal',
 						'choices' => array(
-							'1' => __('Yes'),
-							'0'  => __('No')
+							'1' => __('Multiple galleries'),
+							'0'  => __('Only one')
 						)
 					));
 				?>
