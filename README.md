@@ -4,7 +4,7 @@ Welcome to the Advanced Custom Fields NextGEN Gallery Custom Field repository. A
 This script works **only** in ACF version 4. Version 3 is currently not supported.
 
 Besides that this script can be either used as a WP plugin or as a theme include.
-This script is also listed on the [Wordpress plugin directory](wordpress.org/plugins/advanced-custom-fields-nextgen-gallery-custom-field/).
+This script is also listed on the [Wordpress plugin directory](http://www.wordpress.org/plugins/advanced-custom-fields-nextgen-gallery-custom-field/).
 
 ### Structure
 
