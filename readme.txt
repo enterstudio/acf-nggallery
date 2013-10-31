@@ -2,7 +2,7 @@
 Contributors: Jeroen Reumkens
 Tags: Advanced Custom Fields, ACF, NextGEN Gallery, NGGallery
 Requires at least: 3.0
-Tested up to: 3.6.1
+Tested up to: 3.7.1
 Stable tag: trunk
 Author: Jeroen Reumkens
 Author URI: http://www.jeroenreumkens.nl
@@ -54,6 +54,9 @@ function my_register_fields()
 3. Images array returned in template.
 
 == Changelog ==
+= 1.1.3 =
+* Added compatibility for Wordpress 3.7.1
+
 = 1.1.2 =
 * Added screenshots
 

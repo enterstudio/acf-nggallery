@@ -2,9 +2,9 @@
 /*
 Plugin Name: Advanced Custom Fields: NextGen Gallery Custom Field
 Description: This plugin provides an extra field for the Advanced Custom Fields plugin to support the NextGEN Gallery plugin. This makes users able to link galleries to posts, pages and custom post types.
-Version: 1.1.2
+Version: 1.1.3
 Requires at least: 3.0
-Tested up to: 3.6.1
+Tested up to: 3.7.1
 Author: Jeroen Reumkens
 Author URI: http://www.jeroenreumkens.nl
 License: GPLv2 or later
