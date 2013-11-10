@@ -54,6 +54,9 @@ function my_register_fields()
 3. Images array returned in template.
 
 == Changelog ==
+= 1.1.4 =
+* Changed output to null instead of string "null" when no gallery is selected (https://github.com/JeroenReumkens/acf-nggallery/issues/1)
+
 = 1.1.3 =
 * Added compatibility for Wordpress 3.7.1
 

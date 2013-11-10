@@ -169,7 +169,7 @@ class acf_field_nggallery extends acf_field
 		// create Field HTML
 		?>
 		<select name="<?=$field['name'];?>[]" id="<?=$field['name'];?>" class="<?=$field['class'];?>" <?php if ($multiple === 1) { echo 'multiple="multiple';} ?>>
-			<option value="null">- <?=__('Select');?> -</option>
+			<option value="">- <?=__('Select');?> -</option>
 			<?php foreach ($aGalleries as $oGallery) : ?>
 			<option value="<?=$oGallery->gid;?>"<?php if ( $aSelectedGalleries && in_array( $oGallery->gid, $aSelectedGalleries ) ) { echo 'selected="selected"';} ?>><?=$oGallery->title;?></option>
 			<?php endforeach;?>
